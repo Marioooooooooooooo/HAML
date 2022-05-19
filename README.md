@@ -19,8 +19,8 @@ cd haa2c/scripts
 For HADDPG/MADDPG,
 ``` Bash
 cd haddpg/examples/mujoco
-bash ./run_maddpg.sh Hopper-v2 maddpg 3 result # run with MADDPG on Walker-v2
-bash ./run_maddpg.sh Hopper-v2 haddpg 3 result # run with HADDPG on Walker-v2
+bash ./run_maddpg.sh Hopper-v2 maddpg 3 result # run with MADDPG on Hopper-v2
+bash ./run_maddpg.sh Hopper-v2 haddpg 3 result # run with HADDPG on Hopper-v2
 ```
 If you would like to change the configs of experiments, you could modify sh files.
 
